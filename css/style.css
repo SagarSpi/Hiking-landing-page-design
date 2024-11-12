@@ -196,7 +196,74 @@ ul li{
     line-height: 51px;
 }
 /*hike recover section css end*/
-
+/*big bend section css start*/
+.big-bend-section{
+    width: 100%;
+    background: url(../images/big-bend-bg.png) left center no-repeat;
+    background-size: cover;
+    padding: 20px 20px;
+}
+.big-bend-section .big-bend-left .big-logo-1 {
+    float: right;
+    margin-right: 74px;
+}
+.big-bend-section .big-bend-left {
+    width: 100%;
+    padding: 115px 0px 100px 0px;
+}
+.big-bend-section .big-bend-left h1 {
+    color: #fff;
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    line-height: 80px;
+    text-transform: uppercase;
+    padding: 31px 0px 0px 31px;
+}
+.big-bend-section .big-bend-left p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 10px 0px 0px 36px;
+}
+.big-bend-section .big-bend-right {
+    width: 100%;
+    text-align: right;
+    padding-top: 340px;
+}
+.big-bend-section .big-bend-right h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.big-bend-section .big-bend-right .bdr {
+    width: 33%;
+    border: 3px solid #fff;
+    float: right;
+    margin: 7px 0px 28px 31px;
+}
+.big-bend-section .big-bend-right a {
+    color: #32455f;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding: 3px 23px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.big-bend-section .big-bend-right a:hover {
+    cursor: pointer;
+    background: #224360;
+    color: #fff;
+    transition: .3s linear;
+}
+/*big bend section css end*/
 
 
 
