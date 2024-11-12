@@ -25,8 +25,8 @@ ul li{
 /*header section css start*/
 .header-section{
 	width: 100%;
-	background: url(../images/header-bg.png) left center no-repeat;
-	background-size: cover;
+	/*background: url(../images/header-bg.png) left center no-repeat;
+	background-size: cover;*/
 }
 .header-section .navbar-brand img{
 	width: 100%;
@@ -47,8 +47,9 @@ ul li{
     color: #32455f;
     font-size: 16px;
     padding: 0px 30px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
+    border-bottom: 2px solid #fbfbf5;
 }
 .header-section .navbar-light .navbar-nav .nav-link:hover{
 	border-bottom: 2px solid #32455f;
@@ -71,11 +72,19 @@ ul li{
     font-size: 13px;
     color: #32455f;
 }
-.header-section .header-inner {
-    padding: 122px 0px 260px 0px;
+/*header section css end*/
+/*banner section css start*/
+.banner-section{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/header-bg.png) left center no-repeat;
+    background-size: cover;
+}
+.banner-section .banner-inner{
+    padding-top: 122px;
     width: 100%;
 }
-.header-section .header-inner h1 {
+.banner-section .banner-inner h1{
     color: #32455f;
     font-size: 38px;
     font-weight: 700;
@@ -84,7 +93,7 @@ ul li{
     letter-spacing: 1px;
     padding-left: 31px;
 }
-.header-section .header-inner h2 {
+.banner-section .banner-inner h2{
     color: #32455f;
     font-size: 25px;
     font-weight: 400;
@@ -93,7 +102,7 @@ ul li{
     margin: 0px;
     padding-left: 31px;
 }
-/*header section css end*/
+/*banner section css end*/
 /*hike recover section css start*/
 .recover-section{
     width: 100%;
