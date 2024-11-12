@@ -725,7 +725,54 @@ ul li{
     line-height: 52px;
 }
 /*discount section css end*/
-
+/*discount-paragraph-section css start*/
+.discount-paragraph-section {
+    width: 100%;
+    background: url(../images/discount-2-bg.png) left center no-repeat;
+    background-size: cover;
+    padding: 120px 0px 45px 0px;
+}
+.discount-paragraph-section .discount-paragraph-inner{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+.discount-paragraph-section .discount-paragraph-inner p {
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-weight: 400;
+}
+.discount-paragraph-section .discount-paragraph-inner a {
+    color: #3b546d;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding: 3px 23px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.discount-paragraph-section .discount-paragraph-inner a:hover{
+    cursor: pointer;
+    background: #224360;
+    color: #fff;
+    transition: .3s linear
+}
+.discount-paragraph-section .discount-paragraph-inner .discount-paragraph-logo {
+    position: absolute;
+    top: 31%;
+    right: -6%;
+}
+.discount-paragraph-section .discount-paragraph-inner .discount-paragraph-logo ul li{
+    color: #fff;
+    font-size: 40px;
+    line-height: 52px;
+}
+/*discount-paragraph-section css end*/
 
 
 
