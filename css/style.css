@@ -773,6 +773,60 @@ ul li{
     line-height: 52px;
 }
 /*discount-paragraph-section css end*/
+/*footer section css start */
+.footer-section {
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+}
+.footer-section .footer-bottom{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.footer-section .footer-bottom .ftr-btm-left h2 {
+    color: #5f6551;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.footer-section .footer-bottom .ftr-btm-left p {
+    color: #5f6551;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.footer-section .footer-bottom .ftr-btm-left img {
+    width: 30%;
+}
+.footer-section .footer-bottom .ftr-btm-right {
+    width: 100%;
+    padding: 45px 0px 0px 0px;
+}
+.footer-section .footer-bottom .ftr-btm-right h4 {
+    color: #5f6551;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.footer-section .footer-bottom .ftr-btm-right ul li {
+    color: #5f6551;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+.footer-section .footer-end-inner{
+    width: 100%;
+    color: white;
+    padding-top: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #5f6551;
+}
+.footer-section .footer-end-inner .footer-end-right{
+    text-align: right;
+}
+/*footer section css end */
 
 
 
