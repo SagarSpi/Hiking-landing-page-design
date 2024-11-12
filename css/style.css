@@ -497,7 +497,75 @@ ul li{
     padding: 10px 30px 0px 0px;
 }
 /*Backpackin section css end*/
-
+/*Camping Classes section css start*/
+.camping-class-section {
+    width: 100%;
+    padding: 30px 0px 70px 0px;
+}
+.camping-class-section .camping-title {
+    width: 100%;
+    height: 100%;
+    padding: 45px 0px 35px 0px;
+    position: relative;
+}
+.camping-class-section .camping-title .camping-class-logo {
+    position: absolute;
+    top: 27%;
+    left: -4%;
+}
+.camping-class-section .camping-title .camping-class-logo ul li {
+    color: #5f6551;
+    font-size: 28px;
+    line-height: 31px;
+}
+.camping-class-section .camping-title h1{
+    color: #5f6551;
+    font-size: 38px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+.camping-class-section .camping-title .bdr {
+    width: 5%;
+    border: 3px solid #5f6551;
+    margin: 20px 0px 0px 0px;
+}
+.camping-class-section .camping-item{
+    width: 100%;
+    text-align: center;
+}
+.camping-class-section .camping-item h3 {
+    letter-spacing: 1px;
+    color: #5f6551;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 30px 0px 5px 0px;
+}
+.camping-class-section .camping-item p {
+    color: #5f6551;
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.camping-class-section .camping-item a{
+    color: #fff;
+    background: #5f6551;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding: 3px 23px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.camping-class-section .camping-item a:hover{
+    cursor: pointer;
+    background: #224360;
+    color: #fff;
+    transition: .3s linear;
+}
+/*Camping Classes section css end*/
 
 
 
