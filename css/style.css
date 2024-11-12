@@ -655,7 +655,76 @@ ul li{
     font-size: 14px;
 }
 /*ice Climbing section css end*/
-
+/*discount section css start*/
+.discount-section{
+    width: 100%;
+    background: url(../images/discount-1-bg.png) left center no-repeat;
+    background-size: cover;
+}
+.discount-section .discount-left {
+    width: 100%;
+    padding: 70px 0px 65px 0px;
+}
+.discount-section .discount-left h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.discount-section .discount-left .bdr {
+    width: 11%;
+    border: 3px solid #fff;
+    margin: 16px 0px 16px 0px;
+}
+.discount-section .discount-left p{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.discount-section .discount-right {
+    width: 100%;
+    padding: 65px 0px 75px 0px;
+    position: relative;
+}
+.discount-section .discount-right h3 {
+    color: #fff;
+    font-size: 96px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.discount-section .discount-right span {
+    font-size: 29px;
+    font-weight: 400;
+    padding-left: 15px;
+    letter-spacing: 2px;
+}
+.discount-section .discount-right p {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.discount-section .discount-right h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.discount-section .discount-right .discount-logo {
+    position: absolute;
+    top: 31%;
+    right: -11%;
+}
+.discount-section .discount-right .discount-logo ul li {
+    color: #fff;
+    font-size: 40px;
+    line-height: 52px;
+}
+/*discount section css end*/
 
 
 
